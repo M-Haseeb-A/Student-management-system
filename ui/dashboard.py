@@ -21,7 +21,7 @@ TEXT_LOGOUT = "#e0999a"
 class SchoolDashboard(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("School Management System")
+        self.title("Student Management System")
         self.geometry("1200x600")
         self.configure(fg_color=BG_MAIN)
 
